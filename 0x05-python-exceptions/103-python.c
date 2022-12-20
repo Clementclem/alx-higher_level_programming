@@ -1,3 +1,8 @@
+/*
+ * File: 103-python.c
+ * Author: Ukonu Divine Chisom
+ */
+
 #include <Python.h>
 
 void print_python_list(PyObject *p);
@@ -37,9 +42,10 @@ void print_python_list(PyObject *p)
 		if (strcmp(type, "bytes") == 0)
 			print_python_bytes(list->ob_item[i]);
 		else if (strcmp(type, "float") == 0)
-			aprint_python_float(list->ob_item[i]);
+			print_python_float(list->ob_item[i]);
 	}
 }
+
 /**
  * print_python_bytes - Prints basic info about Python byte objects.
  * @p: A PyObject byte object.
