@@ -4,7 +4,6 @@
 
 
 class Rectangle:
-    def __init__(self):
-        # Constructor method
+        """Represent a square."""
         pass
 
