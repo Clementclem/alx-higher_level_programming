@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+<<<<<<< Updated upstream
 # 4-list_division.py
 
 
+=======
+>>>>>>> Stashed changes
 def list_division(my_list_1, my_list_2, list_length):
     """Divides two lists element by element.
     Args:
@@ -26,4 +29,8 @@ def list_division(my_list_1, my_list_2, list_length):
             div = 0
         finally:
             new_list.append(div)
+<<<<<<< Updated upstream
     return (new_list)
+=======
+        return (new_list)
+>>>>>>> Stashed changes
